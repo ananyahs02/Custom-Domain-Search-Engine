@@ -1,0 +1,24 @@
+#searchPage{
+	display:inline;
+}
+.center{
+     float:left;
+     padding-right:50px;
+}
+
+
+.form-control {
+	font-size: 1.25rem;
+	padding: 0.25rem 0.5rem;
+}
+        
+        
+.input-group input:focus { 
+	border-color: Red;
+    box-shadow: 0 0 5px rgba(207, 220, 0, 0.4);
+}
+
+.input-group {
+	margin-top: 10px;
+}       
+ 

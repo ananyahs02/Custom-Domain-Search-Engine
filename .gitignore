@@ -1,0 +1,16 @@
+data/*
+.vscode
+__pycache__/globals.cpython-36.pyc
+__pycache__/tokenizer.cpython-36.pyc
+dump/*
+__pycache__
+dump.zip
+tokenizer.pyc
+settings.pyc
+analytics/Mondego.txt
+analytics/Irvine.txt
+analytics/Informarics.txt
+file_tf/*
+file_df/*
+backup
+back_up

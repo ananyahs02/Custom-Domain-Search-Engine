@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="searchResults.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Search Results</title>
+</head>
+<body>
+<br>
+<br>
+	 <div id="searchPage">
+		<img class="center"
+			src="https://www.chem.uci.edu/~lawm/UCI%20seal%203.jpg" height="80" width="250"
+		/>
+         <div class="container input-group">
+
+			 <input   class="autocomplete-searchbox form-control"  id="search" type="text" placeholder="Enter your search term" aria-label="Search">
+      <button class="btn rounded-0" type="submit" id="btn"
+	    	><i class="fa fa-search"></i></button>
+				
+		</div>
+	</div> 
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id = refresh_table>
+	<table id=results_table class="table table-striped">
+    <thead>
+    <tr>
+    	
+        <th>Search Results</th>
+        
+    </tr> 
+    </thead>
+	
+  </table>
+  </div>
+ 
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="searchResults.js"></script>	
+<script src="homePage.js"></script>
+</body>
+</html>
